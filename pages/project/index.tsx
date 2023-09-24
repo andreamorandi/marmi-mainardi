@@ -18,25 +18,25 @@ const Project = () => {
     {
       title: 'Arte Sacra',
       description: '',
-      image: 'https://marmi-mainardi.s3.amazonaws.com/images/slider5.png',
+      image: '/images/slider5.png',
       name: 'holy'
     },
     {
       title: 'Arte Funeraria',
       description: '',
-      image: 'https://marmi-mainardi.s3.amazonaws.com/images/slider4.png',
+      image: '/images/slider4.png',
       name: 'funerary'
     },
     {
       title: 'Arredo',
       description: '',
-      image: 'https://marmi-mainardi.s3.amazonaws.com/images/slider2.png',
+      image: '/images/slider2.png',
       name: 'furniture'
     },
     {
       title: 'Decorazioni',
       description: '',
-      image: 'https://marmi-mainardi.s3.amazonaws.com/images/slider3.png',
+      image: '/images/slider3.png',
       name: 'decorations'
     },
   ]

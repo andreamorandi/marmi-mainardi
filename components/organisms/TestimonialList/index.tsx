@@ -39,7 +39,7 @@ const TestimonialList = () => {
       >
         <SwiperSlide className='mt-10'>
           <TestimonialCard
-            avatarSrc="https://marmi-mainardi.s3.amazonaws.com/images/slider2.png"
+            avatarSrc="/slider2.png"
             name="Eleganza senza tempo per la vostra casa."
             company=""
             testimony={``}
@@ -49,7 +49,7 @@ const TestimonialList = () => {
         </SwiperSlide>
         <SwiperSlide className='mt-10'>
           <TestimonialCard
-            avatarSrc="https://marmi-mainardi.s3.amazonaws.com/images/slider3.png"
+            avatarSrc="/slider3.png"
             name="Diamo vita alle vostre idee."
             company=""
             testimony={``}
@@ -59,7 +59,7 @@ const TestimonialList = () => {
         </SwiperSlide>
         <SwiperSlide className='mt-10'>
           <TestimonialCard
-            avatarSrc="https://marmi-mainardi.s3.amazonaws.com/images/slider5.png"
+            avatarSrc="/slider5.png"
             name="Arte sacra, una preghiera scolpita."
             company=""
             testimony={``}
@@ -69,7 +69,7 @@ const TestimonialList = () => {
         </SwiperSlide>
         <SwiperSlide className='mt-10'>
           <TestimonialCard
-            avatarSrc="https://marmi-mainardi.s3.amazonaws.com/images/slider4.png"
+            avatarSrc="/slider4.png"
             name="Opere che preservano e onorano le vite passate."
             company=""
             testimony={``}
@@ -79,7 +79,7 @@ const TestimonialList = () => {
         </SwiperSlide>
         <SwiperSlide className='mt-10'>
           <TestimonialCard
-            avatarSrc="https://marmi-mainardi.s3.amazonaws.com/images/slider1.png"
+            avatarSrc="/slider1.png"
             name="Stemmi che raccontano storie e tradizioni."
             company=""
             testimony={``}
