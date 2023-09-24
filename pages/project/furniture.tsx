@@ -11,27 +11,27 @@ import { useRouter } from 'next/router';
 
 const photos = [
   {
-    src: '/images/arredo/arredo1.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/arredo/arredo1.png',
     width: 4,
     height: 1.75
   },
   {
-    src: '/images/arredo/arredo2.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/arredo/arredo2.png',
     width: 2.96,
     height: 2.9
   },
   {
-    src: '/images/arredo/arredo3.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/arredo/arredo3.png',
     width: 2.73,
     height: 2.84
   },
   {
-    src: '/images/arredo/arredo4.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/arredo/arredo4.png',
     width: 4,
     height: 3
   },
   {
-    src: '/images/arredo/arredo5.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/arredo/arredo5.png',
     width: 2.62,
     height: 3.3
   },

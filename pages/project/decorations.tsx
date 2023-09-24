@@ -252,157 +252,157 @@ import { useRouter } from 'next/router';
 
 const photos = [
   {
-    src: '/images/decorazioni/decorazioni1.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni1.png',
     width: 2.54,
     height: 4.02
   },
   {
-    src: '/images/decorazioni/decorazioni2.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni2.png',
     width: 1.93,
     height: 3.52
   },
   {
-    src: '/images/decorazioni/decorazioni3.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni3.png',
     width: 2.56,
     height: 3.76
   },
   {
-    src: '/images/decorazioni/decorazioni4.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni4.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/decorazioni/decorazioni5.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni5.png',
     width: 2.02,
     height: 2.90
   },
   {
-    src: '/images/decorazioni/decorazioni6.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni6.png',
     width: 0.96,
     height: 1.43
   },
   {
-    src: '/images/decorazioni/decorazioni7.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni7.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/decorazioni/decorazioni8.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni8.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/decorazioni/decorazioni9.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni9.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/decorazioni/decorazioni10.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni10.png',
     width: 1.7,
     height: 3.79
   },
   {
-    src: '/images/decorazioni/decorazioni11.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni11.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/decorazioni/decorazioni12.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni12.png',
     width: 1.32,
     height: 2.64
   },
   {
-    src: '/images/decorazioni/decorazioni13.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni13.png',
     width: 1.73,
     height: 2.31
   },
   {
-    src: '/images/decorazioni/decorazioni14.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni14.png',
     width: 1.42,
     height: 2.21
   },
   {
-    src: '/images/decorazioni/decorazioni15.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni15.png',
     width: 1.28,
     height: 2.44
   },
   {
-    src: '/images/decorazioni/decorazioni16.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni16.png',
     width: 2.51,
     height: 3.83
   },
   {
-    src: '/images/decorazioni/decorazioni17.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni17.png',
     width: 1.17,
     height: 1.82
   },
   {
-    src: '/images/decorazioni/decorazioni18.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni18.png',
     width: 1.28,
     height: 2.64
   },
   {
-    src: '/images/decorazioni/decorazioni19.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni19.png',
     width: 1.54,
     height: 3.69
   },
   {
-    src: '/images/decorazioni/decorazioni20.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni20.png',
     width: 2.64,
     height: 2.69
   },
   {
-    src: '/images/decorazioni/decorazioni21.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni21.png',
     width: 1.66,
     height: 2.86
   },
   {
-    src: '/images/decorazioni/decorazioni22.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni22.png',
     width: 2.2,
     height: 3.65
   },
   {
-    src: '/images/decorazioni/decorazioni23.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni23.png',
     width: 1.33,
     height: 2.63
   },
   {
-    src: '/images/decorazioni/decorazioni24.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni24.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/decorazioni/decorazioni25.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni25.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/decorazioni/decorazioni26.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni26.png',
     width: 1.27,
     height: 2.67
   },
   {
-    src: '/images/decorazioni/decorazioni27.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni27.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/decorazioni/decorazioni28.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni28.png',
     width: 1.26,
     height: 2.41
   },
   {
-    src: '/images/decorazioni/decorazioni29.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni29.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/decorazioni/decorazioni30.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni30.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/decorazioni/decorazioni31.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/decorazioni/decorazioni31.png',
     width: 3.02,
     height: 4.03
   },

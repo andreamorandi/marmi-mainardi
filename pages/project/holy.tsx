@@ -39,107 +39,107 @@ import { useRouter } from 'next/router';
 
 const photos = [
   {
-    src: '/images/sacra/sacra1.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra1.png',
     width: 2.93,
     height: 2.73
   },
   {
-    src: '/images/sacra/sacra2.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra2.png',
     width: 1,
     height: 1.3
   },
   {
-    src: '/images/sacra/sacra3.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra3.png',
     width: 3,
     height: 4
   },
   {
-    src: '/images/sacra/sacra4.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra4.png',
     width: 1.28,
     height: 1.92
   },
   {
-    src: '/images/sacra/sacra5.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra5.png',
     width: 2.28,
     height: 3.28
   },
   {
-    src: '/images/sacra/sacra6.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra6.png',
     width: 1.57,
     height: 2.76
   },
   {
-    src: '/images/sacra/sacra7.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra7.png',
     width: 2.63,
     height: 2.1
   },
   {
-    src: '/images/sacra/sacra8.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra8.png',
     width: 2.1,
     height: 2.47
   },
   {
-    src: '/images/sacra/sacra9.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra9.png',
     width: 3,
     height: 3.02
   },
   {
-    src: '/images/sacra/sacra10.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra10.png',
     width: 1.12,
     height: 1.49
   },
   {
-    src: '/images/sacra/sacra11.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra11.png',
     width: 2.9,
     height: 3.67
   },
   {
-    src: '/images/sacra/sacra12.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra12.png',
     width: 2.2,
     height: 2.38
   },
   {
-    src: '/images/sacra/sacra13.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra13.png',
     width: 2.1,
     height: 3.08
   },
   {
-    src: '/images/sacra/sacra14.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra14.png',
     width: 1.3,
     height: 1.41
   },
   {
-    src: '/images/sacra/sacra15.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra15.png',
     width: 1.26,
     height: 1.81
   },
   {
-    src: '/images/sacra/sacra16.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra16.png',
     width: 0.52,
     height: 0.99
   },
   {
-    src: '/images/sacra/sacra17.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra17.png',
     width: 0.76,
     height: 1.02
   },
   {
-    src: '/images/sacra/sacra18.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra18.png',
     width: 2.31,
     height: 2.34
   },
   {
-    src: '/images/sacra/sacra19.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra19.png',
     width: 3.02,
     height: 4.03
   },
   {
-    src: '/images/sacra/sacra20.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra20.png',
     width: 2.76,
     height: 4.02
   },
   {
-    src: '/images/sacra/sacra21.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/sacra/sacra21.png',
     width: 3.02,
     height: 4.03
   },

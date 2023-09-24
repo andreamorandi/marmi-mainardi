@@ -22,7 +22,7 @@ const PageTemplate = ({ children, title = 'Marmi Mainardi' }: PageTemplateProps)
       {browserName == 'Firefox' ? (
         <div className="w-full h-fit min-h-screen bg-neutral-600 overflow-x-hidden">
           <div className="w-full h-full min-h-screen relative">
-            <div className="w-full h-full min-h-screen relative before:absolute before:w-full before:h-full before:min-h-screen before:bg-[url('/images/page-background.svg')] before:bg-cover before:blur-[175px]">
+            <div className="w-full h-full min-h-screen relative before:absolute before:w-full before:h-full before:min-h-screen before:bg-[url('/page-background.svg')] before:bg-cover before:blur-[175px]">
               {/* Space for navbar, because navbar is absolute */}
               <div
                 className={`w-full h-full min-h-screen relative ${
@@ -45,7 +45,7 @@ const PageTemplate = ({ children, title = 'Marmi Mainardi' }: PageTemplateProps)
       ) : (
         <>
           <div className="w-full h-fit min-h-screen bg-neutral-600 overflow-x-hidden">
-            <div className="w-full h-full min-h-screen relative bg-[url('/images/page-background.svg')] bg-cover">
+            <div className="w-full h-full min-h-screen relative bg-[url('/page-background.svg')] bg-cover">
               <div className="w-full h-full min-h-screen relative backdrop-blur-[175px] bg-neutral-600/[.80] overflow-visible">
                 {/* Space for navbar, because navbar is absolute */}
                 <div className="h-[105px]"></div>

@@ -120,7 +120,7 @@ const About = () => {
           </div>
         </div>
       </section> */}
-      <Image src={'/images/about.png'} width='1290px' height={1000} alt='company brand' loading='lazy' />
+      <Image src={'https://marmi-mainardi.s3.amazonaws.com/images/about.png'} width='1290px' height={1000} alt='company brand' loading='lazy' />
     </PageTemplate>
   )
 }

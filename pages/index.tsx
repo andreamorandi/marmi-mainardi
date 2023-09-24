@@ -31,7 +31,7 @@ const Home = () => {
             </div>
 
             <div className='mt-5'>
-              <Image src={'/images/jumbo.png'} width='1090px' height={1000} alt='company brand' loading='lazy' />
+              <Image src={'https://marmi-mainardi.s3.amazonaws.com/images/jumbo.png'} width='1090px' height={1000} alt='company brand' loading='lazy' />
             </div>
             
           </div>

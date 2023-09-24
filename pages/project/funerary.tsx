@@ -149,102 +149,102 @@ import { useRouter } from 'next/router';
 
 const photos = [
   {
-    src: '/images/funeraria/funeraria1.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria1.png',
     width: 0.82,
     height: 0.66
   },
   {
-    src: '/images/funeraria/funeraria2.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria2.png',
     width: 1.85,
     height: 1.26
   },
   {
-    src: '/images/funeraria/funeraria3.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria3.png',
     width: 1.39,
     height: 1.19
   },
   {
-    src: '/images/funeraria/funeraria4.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria4.png',
     width: 1.96,
     height: 1.82
   },
   {
-    src: '/images/funeraria/funeraria5.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria5.png',
     width: 3.5,
     height: 2.54
   },
   {
-    src: '/images/funeraria/funeraria6.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria6.png',
     width: 1.81,
     height: 1.54
   },
   {
-    src: '/images/funeraria/funeraria7.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria7.png',
     width: 1.73,
     height: 3.11
   },
   {
-    src: '/images/funeraria/funeraria8.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria8.png',
     width: 2.52,
     height: 3.57
   },
   {
-    src: '/images/funeraria/funeraria9.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria9.png',
     width: 3.29,
     height: 2.75
   },
   {
-    src: '/images/funeraria/funeraria10.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria10.png',
     width: 3.2,
     height: 2.31
   },
   {
-    src: '/images/funeraria/funeraria11.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria11.png',
     width: 3.5,
     height: 2.75
   },
   {
-    src: '/images/funeraria/funeraria12.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria12.png',
     width: 3.16,
     height: 2.93
   },
   {
-    src: '/images/funeraria/funeraria13.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria13.png',
     width: 3.34,
     height: 2.86
   },
   {
-    src: '/images/funeraria/funeraria14.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria14.png',
     width: 2.73,
     height: 3.34
   },
   {
-    src: '/images/funeraria/funeraria15.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria15.png',
     width: 3.22,
     height: 2.76
   },
   {
-    src: '/images/funeraria/funeraria16.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria16.png',
     width: 2.19,
     height: 2.66
   },
   {
-    src: '/images/funeraria/funeraria17.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria17.png',
     width: 3.28,
     height: 2.63
   },
   {
-    src: '/images/funeraria/funeraria18.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria18.png',
     width: 3.61,
     height: 2.76
   },
   {
-    src: '/images/funeraria/funeraria19.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria19.png',
     width: 2.84,
     height: 3.65
   },
   {
-    src: '/images/funeraria/funeraria20.png',
+    src: 'https://marmi-mainardi.s3.amazonaws.com/images/funeraria/funeraria20.png',
     width: 2.67,
     height: 2.83
   },
