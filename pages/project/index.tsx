@@ -18,25 +18,25 @@ const Project = () => {
     {
       title: 'Arte Sacra',
       description: '',
-      image: '/images/slider5.png',
+      image: '/slider5.png',
       name: 'holy'
     },
     {
       title: 'Arte Funeraria',
       description: '',
-      image: '/images/slider4.png',
+      image: '/slider4.png',
       name: 'funerary'
     },
     {
       title: 'Arredo',
       description: '',
-      image: '/images/slider2.png',
+      image: '/slider2.png',
       name: 'furniture'
     },
     {
       title: 'Decorazioni',
       description: '',
-      image: '/images/slider3.png',
+      image: '/slider3.png',
       name: 'decorations'
     },
   ]
