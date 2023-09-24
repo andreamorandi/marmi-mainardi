@@ -27,11 +27,13 @@ const IconListItem = ({ icon, value, value2, label = '' }: IconListItemProps) =>
         ) : (
           <Text textStyle="IconListValue" value={value} />
         )}
-        {(label == '' && value2) ? (
-          <Text textStyle="IconListValueWithoutKey" value={value2} />
-        ) : (
-          <Text textStyle="IconListValue" value={value2} />
-        )}
+        {value2 ? (
+          (label == '') ? (
+            <Text textStyle="IconListValueWithoutKey" value={value2} />
+          ) : (
+            <Text textStyle="IconListValue" value={value2} />
+          )
+        ) : null}
       </div>
     </div>
   )
