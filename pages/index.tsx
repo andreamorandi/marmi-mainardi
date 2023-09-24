@@ -11,9 +11,10 @@ import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
 import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
-import isMobile from '../utils/isMobile'
+import useMobileDeviceDetection from 'hooks/useMobileDetection'
+// import IsMobile from '../utils/isMobile'
 const Home = () => {
-  const mobile = isMobile()
+  const mobile = useMobileDeviceDetection()
   return (
     <>
       <PageTemplate title="Marmi Mainardi">

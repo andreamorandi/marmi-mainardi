@@ -7,7 +7,8 @@ import PageTemplate from 'components/templates/PageTemplate'
 import React from 'react'
 import randomString from 'utils/randomString'
 import SectionSentence from 'components/molecules/SectionSentence'
-import isMobile from '../../utils/isMobile'
+import useMobileDeviceDetection from 'hooks/useMobileDetection'
+// import isMobile from '../../utils/isMobile'
 
 const Project = () => {
   interface Project {
@@ -16,7 +17,7 @@ const Project = () => {
     image: string
     name: string
   }
-  const mobile = isMobile()
+  const mobile = useMobileDeviceDetection()
   const projectList: Project[] = [
     {
       title: 'Arte Sacra',
