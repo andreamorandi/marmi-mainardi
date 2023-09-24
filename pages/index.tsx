@@ -11,7 +11,9 @@ import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
 import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
+import isMobile from '../utils/isMobile'
 const Home = () => {
+  const mobile = isMobile()
   return (
     <>
       <PageTemplate title="Marmi Mainardi">
@@ -23,11 +25,22 @@ const Home = () => {
           <div className="flex flex-col gap-6 w-full sm:w-fit text-center md:text-start items-center flex-col md:flex-row">
 
             <div>
-              <PageSentence
-                title="Il marmo è la tela,<br> la scultura è il nostro linguaggio,<br> la vostra storia è la nostra ispirazione."
-                // description="We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work."
-                // badge="CLIENT-DEVELOPMENT-DRIVEN"
-              />
+              {
+                mobile ? (
+                  <SectionSentence
+                    title="Il marmo è la tela,<br> la scultura è il nostro linguaggio,<br> la vostra storia è la nostra ispirazione."
+                    // description="We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work."
+                    // badge="CLIENT-DEVELOPMENT-DRIVEN"
+                  />
+                ) : (
+                  <PageSentence
+                    title="Il marmo è la tela,<br> la scultura è il nostro linguaggio,<br> la vostra storia è la nostra ispirazione."
+                    // description="We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work."
+                    // badge="CLIENT-DEVELOPMENT-DRIVEN"
+                  />
+                )
+              }
+
             </div>
 
             <div className='mt-5'>

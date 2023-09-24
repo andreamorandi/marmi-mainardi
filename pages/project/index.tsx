@@ -6,6 +6,8 @@ import ProjectCard from 'components/molecules/Card/ProjectCard'
 import PageTemplate from 'components/templates/PageTemplate'
 import React from 'react'
 import randomString from 'utils/randomString'
+import SectionSentence from 'components/molecules/SectionSentence'
+import isMobile from '../../utils/isMobile'
 
 const Project = () => {
   interface Project {
@@ -14,6 +16,7 @@ const Project = () => {
     image: string
     name: string
   }
+  const mobile = isMobile()
   const projectList: Project[] = [
     {
       title: 'Arte Sacra',
@@ -48,10 +51,19 @@ const Project = () => {
           data-aos="fade-right"
         >
           <div className="text-center">
-            <PageSentence
-              badge=""
-              title="Ogni pezzo di marmo racconta una storia unica.<br>Marmo e creatività: La nostra Gallery"
-            />
+            {
+                mobile ? (
+                  <SectionSentence
+                  badge=""
+                  title="Ogni pezzo di marmo racconta una storia unica.<br>Marmo e creatività: La nostra Gallery"
+                />
+                ) : (
+                  <PageSentence
+                  badge=""
+                  title="Ogni pezzo di marmo racconta una storia unica.<br>Marmo e creatività: La nostra Gallery"
+                />
+                )
+              }
           </div>
         </aside>
         {/* <aside className="w-full min-w-[175px] md:w-fit" data-aos="fade-left">

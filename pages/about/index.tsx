@@ -11,7 +11,7 @@ import React from 'react'
 const About = () => {
   return (
     <PageTemplate title="Chi Siamo">
-      <section className="grid grid-cols-1 gap-8 place-items-center text-justify">
+      <section className="grid grid-cols-1 gap-8 place-items-center text-justify my-20 sm:my-28 ">
         {/* <aside className="w-full" data-aos="fade-down-right"> */}
           {/* <div className="w-full h-[480px] relative">
             <Image
