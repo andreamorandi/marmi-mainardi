@@ -120,7 +120,7 @@ const About = () => {
           </div>
         </div>
       </section> */}
-      <Image src={'/about.png'} width='1290px' height={1000} alt='company brand' loading='lazy' />
+      <Image src={'/about.png'} width='1290px' height={1000} alt='company brand' loading='eager' priority={true} />
     </PageTemplate>
   )
 }

@@ -8,6 +8,7 @@ import React, { MutableRefObject, useRef, useState, useEffect, useCallback } fro
 import { FiMail, FiPhoneCall } from 'react-icons/fi'
 import { FiHome } from 'react-icons/fi'
 import emailjs from 'emailjs-com'
+import SectionSentence from 'components/molecules/SectionSentence'
 
 const Contact = () => {
   const [values, setValues] = useState({
@@ -71,7 +72,7 @@ const Contact = () => {
 
     if (!checkErrors() && status === 'READY') {
       setStatus('SENDING');
-      emailjs.sendForm('service_bsvjocj', 'template_0p2rp18', e.target, 'AhgP_fdNiN61AQMYF')
+      emailjs.sendForm('service_6o2vf2a', 'template_l4bpfhx', e.target, '8etgHw2T_7r3A9XMb')
         .then((result) => {
             console.log(result.text);
             setStatus('SUCCESS');
@@ -125,15 +126,21 @@ const Contact = () => {
           <aside className="w-full sm:w-10/12 md:w-8/12 grid grid-cols-1 gap-12 sm:place-items-center lg:w-full lg:place-items-start" data-aos="fade-up-right">
             <div className="sm:text-center lg:text-left">
               <PageSentence
-                title="Contattaci per un servizio personalizzato."
+                title="Contattaci per un servizio personalizzato"
                 badge=""
               />
             </div>
             <div className="space-y-6">
               <IconListItem
+                label="Dove trovarci"
+                value="Bettenesco (CR)<br>Via Persico 9"
+                value2=""
+                icon={<FiHome />}
+              />
+              <IconListItem
                 label="Telefono"
                 value="3663300673 (Matteo)"
-                value2="3391106076 (Gianluca)"
+                // value2="3391106076 (Gianluca)"
                 icon={<FiPhoneCall />}
               />
               <IconListItem
@@ -142,21 +149,26 @@ const Contact = () => {
                 value2=""
                 icon={<FiMail />}
               />
+              <br />
+              {/* <hr style={{marginTop: 0, marginBottom: 0}} /> */}
+              <br />
               <IconListItem
-                label="Laboratorio"
-                value="Bettenesco (CR)<br>Via Persico 9"
-                value2=""
-                icon={<FiHome />}
-              />
-              <IconListItem
-                label="Ufficio"
+                label="Dove trovarci"
                 value="Corte de' Cortesi con Cignone (CR)<br>Vicolo San Francesco d'Assisi 11"
                 value2=""
                 icon={<FiHome />}
               />
+              <IconListItem
+                label="Telefono"
+                value="3391106076 (Gianluca)"
+                value2=""
+                icon={<FiPhoneCall />}
+              />
             </div>
           </aside>
-          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full lg:flex lg:justify-end" data-aos="fade-down-left">
+          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full lg:flex lg:justify-end flex-col mt-6 lg:mt-0" data-aos="fade-up-left">
+          <SectionSentence title="Inviaci un messaggio" />
+            <br />
             <form ref={form} onSubmit={sendEmail} >
               <div className="grid grid-cols-1 gap-7 p-6 md:p-9 bg-light rounded-md lg:w-11/12">
                 <div className="grid grid-cols-2 gap-4">

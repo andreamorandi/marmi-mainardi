@@ -45,7 +45,7 @@ const Home = () => {
             </div>
 
             <div className='mt-5'>
-              <Image src={'/jumbo.png'} width='1090px' height={1000} alt='company brand' loading='lazy' />
+              <Image src={'/jumbo.png'} width='1090px' height={1000} alt='company brand' loading='eager' priority={true} />
             </div>
             
           </div>
